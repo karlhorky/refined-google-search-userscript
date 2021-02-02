@@ -1,14 +1,15 @@
 // ==UserScript==
 // @name         Refined Google Search
 // @description  Improve design and UX of Google Search
-// @version      1.0.0
+// @version      1.0.1
 // @author       Karl Horky
 // @namespace    https://www.karlhorky.com/
 // @match        https://www.google.com/search*
+// @run-at       document-start
 // @grant        none
 // ==/UserScript==
 
-const styleEl = document.createElement("style");
+const styleEl = document.createElement('style');
 document.body.appendChild(styleEl);
 
 [
